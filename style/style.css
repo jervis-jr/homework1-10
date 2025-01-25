@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    max-width: 1920px;
+    padding-top: 50px;
+    width: 100%;
+    margin: 0px auto;
+    background-color: #0A22F4;
+}
+
+.card{
+    color: white;
+    width: 463px;
+}
+
+.title{
+    font-size: 32px;
+}
+.article-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.wrapper-image{
+    width: 463px;
+    height: 197px;
+}
+
+.contact-div{
+    margin-top: 60px;
+    width: 600px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.div-card{
+    width: 70px;
+    height: 70px;
+    color: white; 
+    background-color: white;
+    display: flex;
+}
+
+.flex{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.input-wrapper{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.card-2{
+    margin-top: 80px;
+    width: 346px;
+    font-size: 16px;
+}
+
+.main-card{
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+label{
+    font-size: 16px;
+}
+
+input{
+    background-color:#0A22F4;
+    box-shadow: none;
+    border: none;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+textarea{
+    background-color:#0A22F4;
+    box-shadow: none;
+    border: none;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
+    resize: none;
+}
+
+
+input,textarea,select{
+    font-size: 20px;
+}
+
+.logo{
+    width: 26px;
+    height: 26px;
+    margin: auto;
+}
+
+.card-3{
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 200px;
+    color: white;
+    font-size: 16px;
+}
+
+.logo-2{
+    width: 120px;
+    
+    
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
